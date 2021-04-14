@@ -1,0 +1,34 @@
+{
+    "name": "dark-theme",
+    "displayName": "Dark Theme",
+    "description": "This is very helpful",
+    "version": "1.0.0",
+    "publisher": "KarthikSrivantK",
+    "repository": {
+        "type": "Git",
+        "url": "https://github.com/KarthikSrivantK/Dark-Theme.git"
+    },
+
+    "keywords": [
+        "Dark theme",
+        "Pure Dark Theme",
+        "Dark",
+        "dark theme",
+        "pure dark theme"
+    ],
+    "engines": {
+        "vscode": "^1.55.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Dark Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Dark Theme-color-theme.json"
+            }
+        ]
+    }
+}
